@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\title{Analyse des Titanic-Datensatzes}
+\author{Viktoriia Yermolaieva}
+\date{Februar 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Auswahl der Funktionen}
+
+Für die Analyse des Titanic-Datensatzes wurden gezielt Funktionen entwickelt, 
+die eine sinnvolle deskriptive Auswertung der Daten ermöglichen. Ziel war es, 
+sowohl metrische als auch kategoriale Variablen systematisch untersuchen zu können.
+
+Die Funktion \textbf{desc\_numeric()} wurde implementiert, um zentrale deskriptive 
+Kennzahlen für metrische Variablen wie Alter oder Ticketpreis zu berechnen.
+
+Die Funktion \textbf{desc\_categorical()} dient zur Analyse kategorialer Variablen 
+wie Geschlecht oder Einschiffungshafen.
+
+Die Funktion \textbf{biv\_cat\_cat()} wurde erstellt, um Zusammenhänge zwischen zwei 
+kategorialen Variablen zu untersuchen.
+
+Die Funktion \textbf{biv\_metric\_dicho()} ermöglicht die Analyse des Zusammenhangs 
+zwischen einer metrischen Variable und einer dichotomen Variable.
+
+Zusätzlich wurde die Funktion \textbf{plot\_multi\_cat()} implementiert, um mehrere 
+kategoriale Variablen gleichzeitig visuell darzustellen.
+
+\end{document}
